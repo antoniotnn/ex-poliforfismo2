@@ -26,7 +26,8 @@ public class Product {
 	}
 	
 	public String priceTag() {
-		return getName();
+		return name+" $ "+String.format("%.2f", getPrice());
+		
 	}
 	
 	
